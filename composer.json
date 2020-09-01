@@ -1,0 +1,24 @@
+{
+    "name": "xuewei/uploadfile",
+    "description": "这是一个测试\u001b[D\u001b[D学习测试项目",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "php": ">=5.4.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "薛伟",
+            "email": "xw921211@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Xuewei\\": "src/"
+        }
+    }
+}
