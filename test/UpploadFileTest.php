@@ -4,6 +4,9 @@ require_once '../vendor/autoload.php';
 
 use xuewei\UploadFile;
 
+/**
+ * 测试自动更新composer
+ */
 $upload = new UploadFile();
 $upload->maxSize       = 1*1024*1024;    // 默认为-1，不限制上传大小
 $upload->savePath      = './upload/';    // 上传根目录
